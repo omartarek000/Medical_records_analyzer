@@ -160,7 +160,10 @@ def send_data_to_sql(data):
             # Commit all the inserts
             connection.commit()
             st.text('All data inserted successfully and committed to the database')
-            st.text(" you can now call your doctor to get the summary of the medical record and tell you his feedback  his number is : +1234567890")
+            st.text(" you can now call your doctor for a follow up")
+            st.text("you can contact your insurance provider for more information")
+            st.text("")
+                    
             st.text("Thank you for using our service") 
 
     except Error as e:
