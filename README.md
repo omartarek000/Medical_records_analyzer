@@ -28,7 +28,7 @@ Ensure you have the following installed:
 
 ```bash
 git clone https://github.com/omartarek000/Medical_records_analyzer.git
-cd medical-record-analyzer
+cd Medical_records_analyzer
 ```
 
 2. Install the dependencies:
