@@ -3,3 +3,4 @@ pandas
 python-dotenv
 azure-core
 azure-ai-formrecognizer
+openai 
