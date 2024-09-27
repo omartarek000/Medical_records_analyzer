@@ -3,4 +3,5 @@ pandas
 python-dotenv
 azure-core
 azure-ai-formrecognizer
-openai 
+openai
+mysql-connector-python
