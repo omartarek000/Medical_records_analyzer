@@ -26,7 +26,7 @@ def load_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-load_css('style2.css')
+load_css('style.css')
 
 # Database function
 def send_data_to_sql(data):
@@ -58,7 +58,7 @@ def send_data_to_sql(data):
             values = (patient_info.get('Name'), patient_info.get('Date of Birth'), patient_info.get('Address'))
             cursor.execute(query, values)
             patient_id = cursor.lastrowid
-            st.success(f"Inserted patient information. Patient ID")
+            st.success(f"Inserted patient information . ")
 
             # Insert into other tables (e.g., insurance, medical history, etc.)
             # Example for Insurance Information
